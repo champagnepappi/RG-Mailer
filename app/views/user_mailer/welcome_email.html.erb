@@ -10,8 +10,9 @@
       your username is: <%= @user.login %>.<br>
     </p>
     <p>
-      To login to the site, just follow this link: <%= @url %>.
+      To login to the site, just follow this link: <%=link_to 'localhost:3000' , @url %>.
     </p>
     <p>Thanks for joining and have a great day!</p>
+    <%= image_tag attachments['c.png'].url %>
   </body>
 </html>
